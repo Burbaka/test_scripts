@@ -1,0 +1,11 @@
+Description
+-----------
+This set of scripts prepares test data for CMM application tests. 
+They generate specific junk files for different clean up modules.
+- Cache Files
+- User Log Files
+- Broken Preferences
+- Broken Login Items
+
+How to run
+----------
