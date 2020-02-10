@@ -2,20 +2,40 @@ Description
 -----------
 This set of scripts prepares test data for CMM application tests. 
 They generate specific junk files for different clean up modules.
+
 - Cache Files
 - User Log Files
 - Broken Preferences
 - Broken Login Items
 
+To generate data for each of those modules you could execute specific 
+script located in `junk_data_scripts` folder. 
 
-Requirements
+
+Requirements (environment setup)
 ------------
 Executions was tested only on MacOS.
-Python 3.7+ should be added to your PATH variable.
+This project is [Python](https://www.python.org/) based, so you will need Python to work with it.
 
+```
+brew install python3
+```
 
 How to run
 ----------
-1. From the Terminal
+###### From the Terminal
 
-2. From the IDEA
+For example, you could execute
+```
+python3 user_log_files.py
+``` 
+(`python3` is a reference to Python 3.7+ that is added to your PATH)
+
+###### From the IDEA
+
+Configure Project Interpreter to use virtual environment. To do that 
+In Terminal from the main project folder do the following
+`python3 -m virtualenv venv`
+
+You could execute each script as separate file by right click on it and
+launching the _Run_ command.
