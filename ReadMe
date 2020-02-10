@@ -17,6 +17,11 @@ This script generates files in system Library directory. Thus you need
 execute it under 'root' permissions (user) from the Terminal.
 This is how you could [run it from PyCharm](https://esmithy.net/2015/05/05/rundebug-as-root-in-pycharm/)
 
+####### Generations of all test data
+In the root directory there is a simple script that calls all module separate scripts.
+It allows to generate test data for everything within one script execution.
+Because of launching the Login Items it also should be executed under the 
+`root` permissions.
 
 Requirements (environment setup)
 ------------

@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-import os
 import getpass
 import random
 import string
@@ -35,5 +34,5 @@ filename = 'cache_file_in_nested_folder'
 generate_file(filename, f"{CACHE_FILE_PATH}/{CACHE_NESTED_FOLDER}/{CACHE_NESTED_FOLDER}1", BIG_SIZE)
 generate_file(filename, f"{CACHE_FILE_PATH}/{CACHE_NESTED_FOLDER}/{CACHE_NESTED_FOLDER}2", SMALL_SIZE)
 
-
+# TODO add generation for the data in Library / Containers / <App> / Data / library / Caches / <generated file>
 
