@@ -21,7 +21,6 @@ def generate_file(name=CACHE_FILE_NAME, path=CACHE_FILE_PATH, file_size=SMALL_SI
     file = open(file_path, 'w+')
     fill_file_content(file, file_size)
     file.close()
-    return os.path.abspath(f"temp_files/{name}.txt")
 
 
 def fill_file_content(file, size):

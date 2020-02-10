@@ -12,6 +12,12 @@ To generate data for each of those modules you could execute specific
 script located in `junk_data_scripts` folder. 
 
 
+####### Broken Login Items
+This script generates files in system Library directory. Thus you need
+execute it under 'root' permissions (user) from the Terminal.
+This is how you could [run it from PyCharm](https://esmithy.net/2015/05/05/rundebug-as-root-in-pycharm/)
+
+
 Requirements (environment setup)
 ------------
 Executions was tested only on MacOS.

@@ -6,7 +6,7 @@ import random
 import string
 from pathlib import Path
 
-LOG_FILE_ENDING = 'log'
+LOG_FILE_EXTENSION = 'log'
 USERNAME = getpass.getuser()
 LOG_FILE_PATH = f'/Users/{USERNAME}/Library/Logs'
 LOG_FILE_NAME = 'user_test_junk_log_file_1'
@@ -16,12 +16,11 @@ BIG_SIZE = 5242880  # 5 MB
 
 def generate_log_file(name=LOG_FILE_NAME, path=LOG_FILE_PATH, file_size=SMALL_SIZE):
     Path(path).mkdir(parents=True, exist_ok=True)
-    file_path = f"{path}/{name}.{LOG_FILE_ENDING}"
+    file_path = f"{path}/{name}.{LOG_FILE_EXTENSION}"
 
     file = open(file_path, 'w+')
     fill_file_content(file, file_size)
     file.close()
-    return os.path.abspath(f"temp_files/{name}.txt")
 
 
 def fill_file_content(file, size):
