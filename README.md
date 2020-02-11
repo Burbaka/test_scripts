@@ -11,12 +11,14 @@ They generate specific junk files for different clean up modules.
 To generate data for each of those modules you could execute a specific script located in `junk_data_scripts` folder. 
 
 
-####### Concept
+###### Concept
+
 "Simplicity" was the key idea for implementation for all scripts. Some common code probably could be extracted
 to base classes/functions, however, at this point it is not clear if that makes sense. The current implementation
 allows to generate test data, further architecture improvements seem like overengineering in this case.  
 
-####### Broken Login Items script
+###### Broken Login Items script
+
 This script generates files in the system Library directory. Thus you need to
 execute it under `root` permissions (user) from the Terminal.
 
@@ -27,7 +29,8 @@ sudo ./junk_data_scripts/broken_login_items.py
 
 You could also launch it from the _ PyCharm_ however it requires some configurations. [You could read about it here](https://esmithy.net/2015/05/05/rundebug-as-root-in-pycharm/)
 
-####### Generations of all test data
+###### Generations of all test data
+
 In the root directory, there is a simple script - `generate_test_data.py` - that calls all module separate scripts.
 It allows generating test data for everything within one script execution.
 Because of launching the Login Items it also should be executed under the 
@@ -51,9 +54,11 @@ How to run
 ----------
 ###### From the Terminal
 
-For example, you could execute
+You could execute any script from the project root directory.  For example,  
 ```
-python3 user_log_files.py
+python3 ./test_data/user_log_files.py
+or
+python3 ./generate_test_data.py
 ``` 
 (`python3` is a reference to Python 3.7+ that is added to your PATH)
 
