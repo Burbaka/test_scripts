@@ -70,3 +70,11 @@ In Terminal from the main project folder do the following
 
 You could execute each script as a separate file by right click on it and
 launching the _Run_ command.
+
+Further improvements
+----------
+- There are a bunch of TODOs left here and there, all of them could be implemented.
+- Generate test data files with locked permissions to trigger request for root password
+  - I couldn't reproduce such flow manually. Tried to use `chown` and `chmod` with test file
+  but it was still deleted by the app without asking for password. 
+
