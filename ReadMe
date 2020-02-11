@@ -8,24 +8,39 @@ They generate specific junk files for different clean up modules.
 - Broken Preferences
 - Broken Login Items
 
-To generate data for each of those modules you could execute specific 
-script located in `junk_data_scripts` folder. 
+To generate data for each of those modules you could execute a specific script located in `junk_data_scripts` folder. 
 
 
-####### Broken Login Items
-This script generates files in system Library directory. Thus you need
-execute it under 'root' permissions (user) from the Terminal.
-This is how you could [run it from PyCharm](https://esmithy.net/2015/05/05/rundebug-as-root-in-pycharm/)
+####### Concept
+"Simplicity" was the key idea for implementation for all scripts. Some common code probably could be extracted
+to base classes/functions, however, at this point it is not clear if that makes sense. The current implementation
+allows to generate test data, further architecture improvements seem like overengineering in this case.  
+
+####### Broken Login Items script
+This script generates files in the system Library directory. Thus you need to
+execute it under `root` permissions (user) from the Terminal.
+
+For example, from the project level directory
+```
+sudo ./junk_data_scripts/broken_login_items.py
+```
+
+You could also launch it from the _ PyCharm_ however it requires some configurations. [You could read about it here](https://esmithy.net/2015/05/05/rundebug-as-root-in-pycharm/)
 
 ####### Generations of all test data
-In the root directory there is a simple script that calls all module separate scripts.
-It allows to generate test data for everything within one script execution.
+In the root directory, there is a simple script - `generate_test_data.py` - that calls all module separate scripts.
+It allows generating test data for everything within one script execution.
 Because of launching the Login Items it also should be executed under the 
 `root` permissions.
 
+For example, from the project level directory
+```
+sudo ./generate_test_data.py
+```
+
 Requirements (environment setup)
 ------------
-Executions was tested only on MacOS.
+Implementation was tested only on MacOS.
 This project is [Python](https://www.python.org/) based, so you will need Python to work with it.
 
 ```
@@ -44,9 +59,9 @@ python3 user_log_files.py
 
 ###### From the IDEA
 
-Configure Project Interpreter to use virtual environment. To do that 
+Configure Project Interpreter to use a virtual environment. To do that 
 In Terminal from the main project folder do the following
 `python3 -m virtualenv venv`
 
-You could execute each script as separate file by right click on it and
+You could execute each script as a separate file by right click on it and
 launching the _Run_ command.

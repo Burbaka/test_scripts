@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AutoCollapseChatView</key>
+	<true/>
+	<true/>
+	<key>AutoCollapseSidebar</key>
+	<false/>
+	<key>ChatViewIsCollapsed</key>
+	<false/>
+	<key>DialpadOpen</key>
+	<false/>
+	<key>DisableWebKitDeveloperExtras</key>
+	<key>DisableWebKitDeveloperExtras</key>
+	<true/>
+	<key>FreeGVCDisplayDates</key>
+	<dict>
+		<key>shapovalov_os</key>
+		<array>
+			<date>2017-10-09T07:54:26Z</date>
+		</array>
+	</dict>
+	<key>HasMigratedUserDefinedEvents_2</key>
+	<true/>
+	<key>HockeySDKAutomaticallySendCrashReports</key>
+	<false/>
+	<key>HockeySDKCrashReportActivated</key>
+	<true/>
+	<key>IncludeDebugMenu</key>
+	<false/>
+	<key>LastUserSidebarWidth</key>
+	<real>200</real>
+	<key>NSFullScreenMenuItemEverywhere</key>
+	<false/>
+	<key>NSNavLastRootDirectory</key>
+	<string>~/Desktop</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{712, 426}</string>
+	<key>NSSplitView Subview Frames MainSplitView</key>
+	<array>
+		<string>0.000000, 0.000000, 200.000000, 651.000000, NO, NO</string>
+		<string>201.000000, 0.000000, 1079.000000, 651.000000, NO, NO</string>
+	</array>
+	<key>NSTableView Columns v2 ContactList</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGXF1YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoK8QFgcIEh0eHyAhIiMpMzQ1P0BKS0xWV1hVJG51bGzSCQoLEVpOUy5vYmplY3Rz
+	ViRjbGFzc6UMDQ4PEIACgAqADYAPgBKAFdMTCQoUGBxXTlMua2V5c6MVFheAA4AEgAWj
+	GRobgAaAB4AIgAlaSWRlbnRpZmllclVXaWR0aFZIaWRkZW5UbmFtZSNAaQAAAAAAAAjS
+	JCUmJ1okY2xhc3NuYW1lWCRjbGFzc2VzXE5TRGljdGlvbmFyeaImKFhOU09iamVjdNMT
+	CQoqLhyjFRYXgAOABIAFoy8wG4ALgAyACIAJWGZhdm9yaXRlI0A+AAAAAAAA0xMJCjY6
+	HKMVFheAA4AEgAWjOxobgA6AB4AIgAlWc3RhdHVz0xMJCkFFHKMVFheAA4AEgAWjRkcb
+	gBCAEYAIgAlUdGFncyNAYsAAAAAAANMTCQpNURyjFRYXgAOABIAFo1JTG4ATgBSACIAJ
+	WGxvY2F0aW9uI0BUwAAAAAAA0iQlWVpeTlNNdXRhYmxlQXJyYXmjWVsoV05TQXJyYXlf
+	EA9OU0tleWVkQXJjaGl2ZXLRXl9VQXJyYXmAAQAIABEAGgAjAC0AMgA3AFAAVgBbAGYA
+	bQBzAHUAdwB5AHsAfQB/AIYAjgCSAJQAlgCYAJwAngCgAKIApACvALUAvADBAMoAywDQ
+	ANsA5ADxAPQA/QEEAQgBCgEMAQ4BEgEUARYBGAEaASMBLAEzATcBOQE7AT0BQQFDAUUB
+	RwFJAVABVwFbAV0BXwFhAWUBZwFpAWsBbQFyAXsBggGGAYgBigGMAZABkgGUAZYBmAGh
+	AaoBrwG+AcIBygHcAd8B5QAAAAAAAAIBAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAHn
+	</data>
+	<key>NSTableView Sort Ordering v2 ContactList</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGJSZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoKkHCA4XGBkaGyFVJG51bGzSCQoLDVpOUy5vYmplY3RzViRjbGFzc6EMgAKACNMP
+	CQoQExZXTlMua2V5c6IREoADgASiFBWABYAGgAdaSWRlbnRpZmllcllBc2NlbmRpbmdU
+	bmFtZQnSHB0eH1okY2xhc3NuYW1lWCRjbGFzc2VzXE5TRGljdGlvbmFyeaIeIFhOU09i
+	amVjdNIcHSIjXk5TTXV0YWJsZUFycmF5oyIkIFdOU0FycmF5XxAPTlNLZXllZEFyY2hp
+	dmVy0ScoVUFycmF5gAEACAARABoAIwAtADIANwBBAEcATABXAF4AYABiAGQAawBzAHYA
+	eAB6AH0AfwCBAIMAjgCYAJ0AngCjAK4AtwDEAMcA0ADVAOQA6ADwAQIBBQELAAAAAAAA
+	AgEAAAAAAAAAKQAAAAAAAAAAAAAAAAAAAQ0=
+	</data>
+	<key>NSTableView Supports v2 ContactList</key>
+	<true/>
+	<key>NSTreatUnknownArgumentsAsOpen</key>
+	<string>NO</string>
+	<key>NSWindow Frame CallsMonitor</key>
+	<string>789 516 257 212 0 0 1280 778 </string>
+	<key>NSWindow Frame M5Window</key>
+	<string>0 56 1280 722 0 0 1280 778 </string>
+	<key>SKAudioInputDeviceUID</key>
+	<string>Built-in Microphone (Internal Microphone)</string>
+	<key>SKAudioOutputDeviceUID</key>
+	<string>Built-in Output (Internal Speakers)</string>
+	<key>SKAvatarCacheDiskCacheVersion</key>
+	<integer>22</integer>
+	<key>SKChatReportContactsTyping</key>
+	<false/>
+	<key>SKDisableWelcomeTour</key>
+	<false/>
+	<key>SKLocationDataCacheDiskCacheVersion</key>
+	<integer>4</integer>
+	<key>SKMacUserSkypeVersion</key>
+	<string>7.59.0.37</string>
+	<key>SKMyselfCorner</key>
+	<integer>3</integer>
+	<key>SKMyselfMinimized</key>
+	<false/>
+	<key>SKNetworkSearchRecents</key>
+	<key>SKSupressNotificationsWhenRecording</key>
+	<false/>
+	<key>SKUpgradedFromVersion</key>
+	<string>7.59.0.37</string>
+	<key>SKUpgradedWithUpgradeType</key>
+	<integer>2</integer>
+	<key>SKUserContactListColumnSizesPreferences</key>
+	<dict>
+		<key>favorite</key>
+		<real>30</real>
+		<key>location</key>
+		<real>150</real>
+		<key>name</key>
+		<real>200</real>
+		<key>status</key>
+		<real>200</real>
+		<key>tags</key>
+		<real>150</real>
+	</dict>
+	<key>ShowDialpadOnLogin</key>
+	<false/>
+	<key>SidebarIsCollapsed</key>
+	<false/>
+	<key>UserDefinedEvents</key>
+	<dict>
+		<key>ContactBecomesAvailable</key>
+		<dict>
+			<key>PlaySound</key>
+			<integer>0</integer>
+		</dict>
+		<key>ContactRequestReceived</key>
+		<dict>
+			<key>PlaySound</key>
+			<integer>0</integer>
+		</dict>
+		<key>ContactsReceived</key>
+		<dict>
+			<key>PlaySound</key>
+			<integer>0</integer>
+		</dict>
+		<key>FileTransferCompleted</key>
+		<dict>
+			<key>PlaySound</key>
+			<integer>0</integer>
+		</dict>
+		<key>FileTransferFailed</key>
+		<dict>
+			<key>PlaySound</key>
+			<integer>0</integer>
+		</dict>
+		<key>FirstMessageReceived</key>
+		<dict>
+			<key>PlaySound</key>
+			<integer>0</integer>
+		</dict>
+		<key>IncomingFileTransfer</key>
+		<dict>
+			<key>PlaySound</key>
+			<integer>0</integer>
+		</dict>
+		<key>MessageReceived</key>
+		<dict>
+			<key>PlaySound</key>
+			<integer>0</integer>
+		</dict>
+		<key>MessageSent</key>
+		<dict>
+			<key>PlaySound</key>
+			<integer>0</integer>
+		</dict>
+		<key>SignIn</key>
+		<dict>
+			<key>PlaySound</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>WebKitDeveloperExtras</key>
+	<false/>
+</dict>
+</plist>
